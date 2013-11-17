@@ -1,0 +1,77 @@
+body        { background-color: white;
+	font-family: serif, times; 
+}
+.title       { font-family: sans-serif, arial, helvetica; 
+	font-style: bold;
+	font-weight: 900;  
+	font-size: x-large;
+color: #000000;
+}
+.heading1    { font-family: sans-serif, arial, helvetica; 
+	font-style: normal; 
+	font-weight: 900;  
+	font-size: large;
+color: #000000;
+}
+.heading2    { font-family: sans-serif, arial, helvetica; 
+	font-style: normal; 
+	font-weight: 900;  
+	font-size: large;
+color: #000000;
+}
+.heading3    { font-family: sans-serif, arial, helvetica; 
+	font-style: normal; 
+	font-weight: bold;  
+}
+.emphasis    { font-family: serif, times; 
+	font-style: italic; 
+	font-weight: bold;  
+}
+.footer      { font-family: sans-serif, arial, helvetica; 
+	font-size: 8pt;
+}
+.menu1       { font-family: sans-serif, arial, helvetica; 
+	font-size: 10pt;
+}
+.cmd         { font-family: courier;
+	font-size: 10pt;
+	font-weight: bold;  
+	background-color:#EEEEEE;
+}
+.file        { font-family: courier;
+	font-size: 10pt;
+	font-weight: bold;  
+	background-color:#FFFFFF;
+}
+head1           { font-family: sans-serif, arial, helvetica; 
+color: #000000;
+}
+head2           { font-family: sans-serif, arial, helvetica; 
+	font-weight: 900;  
+	font-size: large;
+color: #000000;
+}
+head3           { font-family: sans-serif, arial, helvetica; 
+color: #000000;
+}
+titlehead           { font-family: sans-serif, arial, helvetica;
+	background-color: #98ABCE;
+	text-align: center;
+}
+a:link       {
+color: #333399;
+	text-decoration: underline;
+}
+a:hover      {
+color: #333399;
+	text-decoration: underline;
+background: #DDDDDD;
+}
+a:active     {
+color: #333399;
+	text-decoration: underline;
+}
+a:visited    {
+color: #333399;
+	text-decoration: underline;
+}
