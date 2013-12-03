@@ -29,64 +29,32 @@ Fractals:
 			<!------------------------Table of Contents ------------------------------>
 			<a name=TableofContents> </a>
 			<h2>Table of Contents</h2>
-			<ol>
 				<p>
-				<li><a href=#Abstract>Abstract</a>
-				<li><a href=#Overview>Fractal Overview</a>
 					<ol>
 						<li><a href=#Fractal>What is a Fractal?</a>
-							<ol>
+							<ul>
 								<li><a href=#Definition>Definition</a>
 								<li><a href=#History>History of Fractals</a>
-							</ol>
-						<li><a href=#DesigningFractals>Designing Fractals</a>
-							<ol>
-								<li><a href=#ChaosTheory>Chaos Theory</a>
-								<li><a href=#SierpinskiTriangle>Sierpinski Triangle</a>
-								<li><a href=#MandelbrotSet>Mandelbrot Set</a>
-							</ol>
-					</ol>
-				<li><a href=#Exercises>Exercises</a>
-					<ol>
-						<li><a href=#FractalAntenna>Fractal Antenna Simulation</a>
-					</ol>
-				<li><a href=#References>References and More Information</a>
-				<li><a href=#AppendixA>Appendix A: Fractal Reference</a>
+								<li><a href=#Uses>Uses and Why There is Interest
+							</ul>
+						<li><a href=#HowFractalsAreCreated>How Fractals are Created</a>
+							<ul>
+								<li><a href=#ChaosTheory>Chaos Theory and Relationship to Fractals</a>
+								<li><a href=#Recursion>Recursion</a>
+							</ul>
+
+						<li><a href=#Examples>Examples</a>
+							<ul>
+								<li><a href=#Mandlebrot>Mandlebrot Set</a>
+								<li><a href=#Sierpinski>Sierpinski's Triangle</a>
+								<li><a href=#Koch>Koch's Snowflake</a>
+							</ul>
+						<li><a href=#References>References and More Information</a>
+						<li><a href=#AppendixA>Appendix A: Fractal Reference</a>
+				</ol>
 			</ol>
-			<!-----------------------------Abstract-------------------------------------->
-			<a name = Abstract> <br><br> </a>
-			<table	border = 1
-					cellpadding = 5
-					width = 100%>
-			<tr><td bgcolor = #cad0de>
-
-			<span class = heading1>Abstract</span>
-			</td></tr></table>
-
-			<p><br>
-			This is the abstract.
-			<br><br>
-			<!---------------------Fractal Overview: Intro--------------------------------->
-			<a name = Overview> <br><br> </a>
-			<a name = Fractal> </a>
-
-			<table	border = 1
-					cellpadding = 5
-					width = 100%>
-					
-			<tr><td bgcolor = #cad0de>
-
-			<span class = heading1>Fractal Overview</span>
-			</td></tr></table>
-
-			<h2>What is a Fractal?</h2>
-
-			<ul>
-				<blockquote> "beautiful, damn hard, increasingly useful. That's fractals."
-				<footer>-<cite><a title = "24/7 Lecture on Fractals" href = "http://www.youtube.com/watch?v=5e7HB5Oze4g&t=70">Benoit Mandelbrot</a></cite></footer></blockquote>
-				<br>
-			</ul>
-			<!-----------------------------Definition-------------------------------------->			
+			
+			<!-----------------------------What is a Fractal?-------------------------------------->			
 			<table	border = 1	
 					cellpadding = 5 
 					width = 100%>
@@ -95,7 +63,13 @@ Fractals:
 
 			<span class = heading1>What is a Fractal?</span>
 			
+			
 			</td></tr></table> <br>
+			<ul>
+				<blockquote> "...beautiful, damn hard, increasingly useful. That's fractals."
+				<footer>-<cite><a title = "24/7 Lecture on Fractals" href = "http://www.youtube.com/watch?v=5e7HB5Oze4g&t=70">Benoit Mandelbrot</a></cite></footer></blockquote>
+				<br>
+			</ul>
 			
 			<img	src = ..//public_html/images/Right_Arrow.png 
 					align = left 
@@ -109,9 +83,10 @@ Fractals:
 			<ul>
 				<li>A fractal is an infinitely complex pattern that is <a href=#selfSimilar>self-similar</a> across many different scales.
 				<li>A fractal is created by <a href=#Recursion>recursion</a> through a simple process in an ongoing <a href=#FeedbackLoop>feedback loop</a>.
-				<br><br>
+
 			</ul>
-			<!------------------------History of Fractals----------------------------------->
+			
+			<!------------------------History----------------------------------->
 			<img	src = ..//public_html/images/Right_Arrow.png 
 					align = left 
 					hspace = 10
@@ -119,126 +94,120 @@ Fractals:
 					width = 20>
 			
 			<a name = History> </a>
-			<span class = heading1> History of Fractals </span>
-
-			<ul>
-				<span class = heading2> Gaston Julia (1893 - 1978) </span>
-				<ul>
-					<li> French mathematician. 
-					<li> Published a book on the iteration of rational functions in 1918. 
-					<li> Devised the formula for the Julia set.
-				</ul>
-				<br>
-				<span class = heading2> Waclaw Sierpinski (1882 - 1969) </span>
-				<ul>
-					<li> Polish mathematician. 
-					<li> Well known for the Sierpinski triangle, but devised many other Sierpinski-style fractals.
-				</ul>
-				<br>
-				<span class = heading2> Benoit Mandelbrot (1924 - 2010) </span>
-				<ul>
-					<li> Emeritus professor at Yale University. 
-					<li> Explored Julia's iterated functions, and found a simpler equation that included all the Julia sets. 
-					<li> Devised the formula for the Mandelbrot set.
-				</ul>
-			</ul>
-			<!------------------Designing Fractals: Intro---------------------------------->
-			<a name = Overview> <br><br> </a>
-			<a name = DesigningFractals> </a>
+			<span class = heading1> History </span>
 			
-			<table	border = 1 
-					cellpadding = 5
-					width = 100%>
-			<tr><td bgcolor = #cad0de>
-
-			<span class = heading1>Fractal Overview</span>
-			</td></tr></table>
-
-			<h2>Designing Fractals</h2>
-
 			<ul>
 			lorem ipsum.
 			</ul>
-			<!------------------------------Chaos Theory-------------------------------->
-			<table	border = 1 
-					cellpadding = 5 	
+			
+			<!------------------------Uses and Why There is Interest----------------------------------->
+			<img	src = ..//public_html/images/Right_Arrow.png 
+					align = left 
+					hspace = 10
+					height = 20
+					width = 20>
+			
+			<a name = Uses> </a>
+			<span class = heading1> Uses and Why There is Interest </span>
+			
+			<ul>
+			lorem ipsum.
+			</ul>
+			
+			<!---------------------------------How Fractals are Created------------------------------------------>
+			<a name = HowFractalsAreCreated> <br><br></a>
+			<table	border = 1	
+					cellpadding = 5 
 					width = 100%>
+					
 			<tr><td bgcolor = #cad0de>
 
-			<span class = heading1> Designing Fractals </span></td>
+			<span class = heading1>How are Fractals Created?</span>
+						
 			</td></tr></table> <br>
-
+			
+			<!------------------------Chaos Theory and Relationship to Fractals----------------------------------->
 			<img	src = ..//public_html/images/Right_Arrow.png 
 					align = left 
 					hspace = 10
 					height = 20
 					width = 20>
-					
+			
 			<a name = ChaosTheory> </a>
-			<span class = heading1 > Chaos Theory: </span>
-
+			<span class = heading1> Chaos Theory and Relationship to Fractals </span>
+			
 			<ul>
 			lorem ipsum.
 			</ul>
-			<!-------------------------Sirepinski Triangle--------------------------------->
+			
+			<!------------------------Recursion----------------------------------->
 			<img	src = ..//public_html/images/Right_Arrow.png 
 					align = left 
 					hspace = 10
 					height = 20
 					width = 20>
-
-			<a name = SierpinskiTriangle> </a>
-			<span class = heading1> Sirepinski Triangle: </span>
-
+			
+			<a name = Recursion> </a>
+			<span class = heading1> Recursion </span>
+			
 			<ul>
 			lorem ipsum.
 			</ul>
-			<!----------------------------Mandelbrot Set---------------------------------->
+
+			<!---------------------------------Examples------------------------------------------>
+			<a name = Examples> <br><br></a>
+			<table	border = 1	
+					cellpadding = 5 
+					width = 100%>
+					
+			<tr><td bgcolor = #cad0de>
+
+			<span class = heading1>Examples</span>
+						
+			</td></tr></table> <br>
+			
+			<!------------------------Mandlebrot----------------------------------->
 			<img	src = ..//public_html/images/Right_Arrow.png 
 					align = left 
 					hspace = 10
 					height = 20
 					width = 20>
-					
-			<a name = MandelbrotSet> </a>
-			<span class = heading1>Mandelbrot Set: </span>
-
-			<ul>
-			lorem ipsum.
-			</ul>
-			<!--------------------------------------------------------------------------->
-			<a name = Exercises> <br><br> </a>
 			
-			<table	border = 1 
-					cellpadding = 5
-					width = 100%>
-					
-			<tr><td bgcolor = #cad0de>
-
-			<span class = heading1>Exercises</span>
-			</td></tr></table>
-
-			<ul>
-			lorem ipsum.
-			</ul>
-			<!--------------------------------------------------------------------------->
-			<a name = Exercises> <br><br> </a>
-			<a name = FractalAntenna> </a>
+			<a name = Mandlebrot> </a>
+			<span class = heading1> Mandlebrot Set </span>
 			
-			<table	border = 1
-					cellpadding = 5
-					width = 100%>
-					
-			<tr><td bgcolor = #cad0de>
-
-			<span class = heading1>Exercises</span>
-			</td></tr></table>
-
-			<h2>Fractal Antenna Simulation</h2>
-
 			<ul>
 			lorem ipsum.
 			</ul>
+			
+			<!------------------------Sierpinski----------------------------------->
+			<img	src = ..//public_html/images/Right_Arrow.png 
+					align = left 
+					hspace = 10
+					height = 20
+					width = 20>
+			
+			<a name = Sierpinski> </a>
+			<span class = heading1> Sierpinski's Triangle </span>
+			
+			<ul>
+			lorem ipsum.
+			</ul>
+			
+			<!------------------------Koch----------------------------------->
+			<img	src = ..//public_html/images/Right_Arrow.png 
+					align = left 
+					hspace = 10
+					height = 20
+					width = 20>
+			
+			<a name = Koch> </a>
+			<span class = heading1> Koch's Snowflake </span>
+			
+			<ul>
+			lorem ipsum.
+			</ul>
+			
 			<!--------------------------------------------------------------------------->
 			<a name = References> <br><br> </a>
 			
