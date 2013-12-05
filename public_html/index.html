@@ -1,18 +1,3 @@
-<!--
-git add .
-git commit -m "comment"
-git push origin master
-git pull origin master
-
-Fractals:
-
-	Definition:
-	
-	Examples/Images:
-	
-	History:
--->
-
 <!DOCTYPE html>
 <html>
 	<head>
@@ -23,7 +8,7 @@ Fractals:
 		<body>
 			<form>
 
-			<h1> Fractals </h1>
+			<h1> Fractals (With a Bit of Chaos) </h1>
 			<td><i>Authors: Logan Miller and Chris Barnick</i></td>
 
 			<!------------------------Table of Contents ------------------------------>
@@ -45,7 +30,7 @@ Fractals:
 
 						<li><a href=#Examples>Examples</a>
 							<ul>
-								<li><a href=#Mandlebrot>Mandlebrot Set</a>
+								<li><a href=#Mandelbrot>Mandelbrot Set</a>
 								<li><a href=#Sierpinski>Sierpinski Triangle</a>
 								<li><a href=#Koch>Koch Curve</a>
 							</ul>
@@ -100,12 +85,15 @@ Fractals:
 					<ul>
 							<li> French mathematician.
 							<li> Published a book on the iteration of rational functions in 1918.
-							<li> Devised the formula for the Julia set.
+							<li> Her work was some of the first on fractal sets.
+							<li> Devised the formula for the Julia set, which led Mandelbrot to discover the Mandelbrot set.
 					</ul>
 					<br>
 					<span class = heading2> Waclaw Sierpinski (1882 - 1969) </span>
 					<ul>
 							<li> Polish mathematician.
+							<li> Mostly known for his contributions to set theory and number theory.
+							<li> His work in set theory set the way for these "fractal sets" to be drawn out.
 							<li> Well known for the Sierpinski triangle, but devised many other Sierpinski-style fractals.
 					</ul>
 					<br>
@@ -114,6 +102,7 @@ Fractals:
 							<li> Emeritus professor at Yale University.
 							<li> Explored Julia's iterated functions, and found a simpler equation that included all the Julia sets.
 							<li> Devised the formula for the Mandelbrot set.
+							<li> Coined the term "fractal".
 					</ul>
 					<br>
 			</ul>
@@ -129,10 +118,13 @@ Fractals:
 			<span class = heading1> Uses and Why There is Interest </span>
 			
 			<ul>
-			<li> Simple solution to capture the enormous detail and irregularity of clouds and landscapes.
-			<li> Efficient way to draw realistic natural objects on a computer screen.
-			<li> Used to model ecosystems.
-			<li> Used in today's cell phone antennas to maximize receptive power in a minimum amount of space.
+			<li> Simple solution to capture the enormous detail and irregularity of clouds and landscapes.</li>
+			<li> Efficient way to draw realistic natural objects on a computer screen.</li>
+			<li> Used to model ecosystems.</li>
+			<li> Used in today's cell phone antennas to maximize receptive power in a minimum amount of space.</li>
+			<br>
+			<img	src = ..//public_html/images/antenna.jpg 
+						width = 500>
 			</ul>
 			
 			<!---------------------------------How Fractals are Created------------------------------------------>
@@ -165,7 +157,7 @@ Fractals:
 			<ul>
 				<li> Study of the behavior of dynamical systems that are highly sensitive to initial conditions.
 				<li> Small differences in initial conditions yield widely diverging outcomes.
-				<li> Even though the systems are determinisitic, long-time prediction can be impossible.
+				<li> Even though the systems are deterministic, long-time prediction can be impossible.
 				<li> Not random!
 			</ul>
 			
@@ -216,20 +208,23 @@ Fractals:
 						
 			</td></tr></table> <br>
 			
-			<!------------------------Mandlebrot----------------------------------->
+			<!------------------------Mandelbrot----------------------------------->
 			<img	src = ..//public_html/images/Right_Arrow.png 
 					align = left 
 					hspace = 10
 					height = 20
 					width = 20>
 			
-			<a name = Mandlebrot> </a>
-			<span class = heading1> Mandlebrot Set </span>
+			<a name = Mandelbrot> </a>
+			<span class = heading1> Mandelbrot Set </span>
 			<br><br>
-				<img	src = ..//public_html/images/mandlebrot.gif 
-						height = 300
+				<img	src = ..//public_html/images/Mandelbrot.gif 
 						width = 650>
-			<br><br>
+			<br>
+			<li> Popular example for mathematical visualization.</li>
+			<li> Julia sets can be found deep within the Mandelbrot Set.</li>
+			<li> Set of Z = Z^2 + C</li>
+			<br>
 			
 			<!------------------------Sierpinski----------------------------------->
 			<img	src = ..//public_html/images/Right_Arrow.png 
@@ -245,7 +240,13 @@ Fractals:
 				<img	src = ..//public_html/images/sierpinski.gif 
 						height = 500
 						width = 650>
-			<br><br>
+			<br>
+			<li> One of the most common examples of self-similar sets.</li>
+			<li> Easily constructed.</li>
+			<li> Area = 0 as iterations approach infinity.
+			<br>
+			<br>
+			
 			<!------------------------Koch----------------------------------->
 			<img	src = ..//public_html/images/Right_Arrow.png 
 					align = left 
@@ -259,7 +260,11 @@ Fractals:
 			<br><br>
 				<img	src = ..//public_html/images/koch.gif 
 						width = 650>
-			<br><br>
+			<br>
+			<li> Discovered very early. (1904)</li>
+			<li> Infinite length in a finite space after unbounded iterations.</li>
+			<li> Continuous everywhere, but differentiable nowhere.</li>
+			<br>
 			
 			<!--------------------------------------------------------------------------->
 			<a name = References> <br><br> </a>
